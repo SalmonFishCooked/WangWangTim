@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'montserrat';
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
 a {
     text-decoration: none;
     color: white;
