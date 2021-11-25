@@ -143,5 +143,7 @@ body {
 
     border-radius: 26px;
 
+    cursor: pointer;
+
     transition: bottom .3s ease-in-out;
 }
