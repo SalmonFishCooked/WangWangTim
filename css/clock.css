@@ -20,10 +20,10 @@
 
 .main-letters {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.666rem;
     font-weight: 400;
 
-    margin-bottom: 40px;
+    margin-bottom: 2.222rem;
 }
 
 .clock-letters {
@@ -32,9 +32,9 @@
 
     text-align: center;
 
-    margin-top: 50px;
+    margin-top: 2.777rem;
 
-    font-size: 21px;
+    font-size: 1.166rem;
     font-weight: 400;
 
     opacity: 0;
@@ -42,20 +42,30 @@
 }
 
 .clock-letters span {
-    height: 40px;
+    height: 2.222rem;
 }
 
 .clockc {
     display: flex;
     text-align: center;
 
-    font-size: 24px;
+    font-size: 1.333rem;
 }
 
 .clockc span div {
-    font-size: 70px;
+    font-size: 3.888rem;
 }
 
 .clockc span {
-    width: 160px;
+    width: 8.888rem;
+}
+
+/* Mobile User */
+@media screen and (max-device-width: 820px) {
+    .clockc span {
+        width: 70px;
+    }
+    .clock-letters span {
+        height: 26px;
+    }
 }
