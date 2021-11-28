@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../../font/Montserrat-Regular.ttf);
+}
+
+#app {
+    color: black;
+    font-family: montserrat;
+}
+
+body {
+    background: url(../../sc/login/login-background0.7.png) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #020305;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 28.125rem;
+    height: 34.375rem;
+}
+
+.top-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.top-text span:first-child {
+    width: 2rem;
+    height: 2rem;
+
+    margin-right: 1rem;
+
+    background: url(../../icon/icon.png) no-repeat center center;
+    background-size: cover;
+}
+
+.login {
+    font-family: Microsoft JhengHei UI, montserrat;
+    background-color: #fff;
+    margin-top: 1.875rem;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1.125rem;
+}
+
+.top-letters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+.top-letters span:first-child {
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.top-letters span:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 700;
+
+    margin-top: 1rem;
+}
+
+.userinput {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 38px;
+    position: relative;
+}
+
+.userinput span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: grey;
+
+    pointer-events: none;
+
+    position: absolute;
+    top: 1.25rem;
+
+    transition: all .3s ease;
+}
+
+/* Animation */
+.userinput input:focus ~ span,
+.userinput input:valid ~ span {
+    top: -0.875rem;
+    font-size: 1.0625rem;
+    color: black;
+}
+
+.userinput input {
+    font-family: Microsoft JhengHei UI, montserrat;
+    width: 18.75rem;
+    height: 2.5rem;
+
+    margin-top: 0.625rem;
+
+    font-size: 1rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+
+    border: 0;
+    outline: none;
+    border-bottom: 0.125rem solid #707070;
+}
+
+.content-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2.875rem;
+}
+
+.button {
+    width: 13.125rem;
+    height: 3.125rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    line-height: 3.125rem;
+
+    border: 1px solid #707070;
+
+    border-radius: 1.125rem;
+
+    text-align: center;
+
+    background-color: #5E9EE8;
+
+    cursor: pointer;
+
+    transition: color .2s ease-out;
+}
+
+.button:nth-child(3) {
+    background-color: #DA47AE;
+}
+
+.button:hover {
+    color:pink;
+}
+
+.content-down span {
+    height: 1.875rem;
+    line-height: 1.875rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.gotomain {
+    width: 2rem;
+    height: 2rem;
+    background: url(../../icon/gotomain.png) no-repeat center;
+    background-size: cover;
+
+    position: absolute;
+    top: 5.125rem;
+    right: 2.5rem;
+}
