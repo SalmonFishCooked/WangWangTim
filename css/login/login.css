@@ -95,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    margin-top: 38px;
+    margin-top: 2.375rem;
     position: relative;
 }
 
@@ -153,7 +153,7 @@ body {
     color: white;
     line-height: 3.125rem;
 
-    border: 1px solid #707070;
+    border: 0.055rem solid #707070;
 
     border-radius: 1.125rem;
 
